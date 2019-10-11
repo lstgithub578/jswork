@@ -7,6 +7,7 @@ if (!isNaN(r)){
     document.getElementById('cir').value = cir.toFixed(2)
     document.getElementById('area').value = area.toFixed(2)
 }
+
     else{
         alert('请输入正确的数字')
     }
