@@ -4,7 +4,7 @@ level = parseFloat(level)&&Number(level)
 if (isNaN(level)){
     alert('金字塔的层数是数字')
 }
-for(let i=1;i<level;++i){
+for(let i=1;i<=level;++i){
     let blank = level - i;
     for (let k=0;k<blank;++k){
         document.write('&nbsp;');
