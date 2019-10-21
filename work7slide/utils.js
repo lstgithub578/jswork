@@ -17,7 +17,7 @@ function bubbleSort(str){
 }
 function  showLog(logValues,showElement){
     let str = ''
-    let{
+    let{ 
         done,
         value:[row,pos]
     } = logValues.next()

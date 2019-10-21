@@ -9,4 +9,4 @@ function sort(method){
     }
     showDiv = document.getElementById('Anim');
     showDiv.innerHTML = logs;
-}
+} 

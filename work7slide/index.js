@@ -1,6 +1,6 @@
 function sort(method){
     let origin = document.getElementById('origin').value;
-    let logs;
+    let logs; 
     console.log(method);
     if(method ='bubble'){
         logs = bubbleSort(origin);
