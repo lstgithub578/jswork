@@ -28,3 +28,4 @@ function goldbach() {
    }
    goldbach.innerHTML = str;
 }
+     
