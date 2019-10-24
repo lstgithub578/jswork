@@ -49,6 +49,7 @@ a{
     background-color:#df905c ;
     color: black;
     display: block;
+    text-align: center;
 }
 
 .content  li:hover{
@@ -58,4 +59,10 @@ a{
 .content a:hover{
     color: white;
     background-color:rgb(70, 68, 68);
+}     
+
+span{
+    color:rgb(248, 213, 149);
+    font-size: 18px;
+    float: left; 
 }
