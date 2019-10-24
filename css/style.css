@@ -1,5 +1,6 @@
 body{
     background: rgb(236, 231, 221);
+    /* background: rgb(253, 237, 237); */
 }
 
 
@@ -29,11 +30,13 @@ a{
 }
 
 .content  li{
-    background-color:#df905c ;
+    background-color:#e9965e ;
+    /* background-color: rgb(190, 230, 240); */
     padding: 0px;
     /* margin-bottom:-1px; */
     /* background: #eca16f; */
     border:1px solid gray;
+    /* border: 1px solid black; */
     /* display: block; */
     color: #fff;
     width: 330px;
@@ -42,12 +45,15 @@ a{
     text-align: center;
 }
 
-.content a{
+.content a{ 
     margin: 0px;
     font-size: 15px;
     font-family: 微软雅黑;
-    background-color:#df905c ;
+    background-color:#e9965e ;
+    /* background-color:#99CCFF; */
+    /* background-color: rgb(45, 119, 138); */
     color: black;
+    /* color: #CCFF99; */
     display: block;
     text-align: center;
 }
@@ -62,7 +68,8 @@ a{
 }     
 
 span{
-    color:rgb(248, 213, 149);
+    color:rgb(160, 126, 57);
+    /* color: rgb(2, 250, 2); */
     font-size: 18px;
     float: left; 
-}
+}           
