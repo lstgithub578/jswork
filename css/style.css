@@ -1,8 +1,8 @@
 body{
     /* background: rgb(236, 231, 221); */
     background-color: #e6e6d5;
-    background: url(../images/backg-1.jpg) no-repeat;
-    background-size: cover;
+    /* background: url(../images/backg-1.jpg) no-repeat; */
+    /* background-size: cover; */
 }
 
 
@@ -26,7 +26,7 @@ a{
 }
 
 .content{
-    width: 352px;
+    width: 380px;
     margin:auto; 
 }
 
@@ -44,7 +44,7 @@ a{
     padding: 0px;
     border:1px solid gray;
     color: #fff;
-    width: 350px;
+    width: 380px;
     height: 38px;
     line-height: 38px;
     text-align: center;
@@ -63,14 +63,19 @@ a{
     text-align: center;
 }
 
+
 .content  li:hover{
     color: white;
 }
 
+a:visited{
+    color: none;
+}
+
 .content a:hover{
     color: white;
-    /* background-color:rgb(70, 68, 68); */
-    background: black;
+    background-color:rgb(43, 41, 41);
+    /* background: black; */
 }     
 
 span{
