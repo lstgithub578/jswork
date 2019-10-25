@@ -1,5 +1,8 @@
 body{
-    background: rgb(236, 231, 221);
+    /* background: rgb(236, 231, 221); */
+    background-color: #e6e6d5;
+    background: url(../images/backg-1.jpg) no-repeat;
+    background-size: cover;
 }
 
 
@@ -7,14 +10,23 @@ a{
     text-decoration: none;
 }
 
+.title1 {
+    margin: auto;
+    width: 600px;
+    display: block;
+    background: white;
+    font-size:25px;
+    /* color:#ff6700; */
+    color: black;
+    opacity:0.9;
+}
+
 .title1 p{
     text-align: center;
-    font-size:25px;
-    color:#ff6700;
 }
 
 .content{
-    width: 351px;
+    width: 352px;
     margin:auto; 
 }
 
@@ -27,7 +39,8 @@ a{
 }
 
 .content  li{
-    background-color:#e9965e ;
+    /* background-color:#e9965e ; */
+    background-color: rgb(236, 231, 221);
     padding: 0px;
     border:1px solid gray;
     color: #fff;
@@ -35,14 +48,17 @@ a{
     height: 38px;
     line-height: 38px;
     text-align: center;
+    opacity:0.95;
 }
 
 .content a{ 
     margin: 0px;
-    font-size: 15px;
+    font-size: 18px;
     font-family: 微软雅黑;
-    background-color:#e9965e ;
-    color: black;
+    /* background-color:#e9965e ; */
+    background-color: rgb(236, 231, 221);
+    color: bule;
+    /* color: #2c2e2e; */
     display: block;
     text-align: center;
 }
@@ -53,7 +69,8 @@ a{
 
 .content a:hover{
     color: white;
-    background-color:rgb(70, 68, 68);
+    /* background-color:rgb(70, 68, 68); */
+    background: black;
 }     
 
 span{
