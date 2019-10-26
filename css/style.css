@@ -16,7 +16,7 @@ a{
     display: block;
     background: white;
     font-size:25px;
-    /* color:#ff6700; */
+    /* color:#ff6700; */ 
     color: black;
     opacity:0.9;
 }
@@ -42,7 +42,6 @@ a{
     /* background-color:#e9965e ; */
     background-color: rgb(236, 231, 221);
     padding: 0px;
-    border:1px solid gray;
     color: #fff;
     width: 380px;
     height: 38px;
@@ -61,6 +60,7 @@ a{
     /* color: #2c2e2e; */
     display: block;
     text-align: center;
+    border:1px solid gray;
 }
 
 
