@@ -68,9 +68,6 @@ a{
     color: white;
 }
 
-a:visited{
-    color: none;
-}
 
 .content a:hover{
     color: white;
@@ -83,3 +80,7 @@ span{
     font-size: 18px;
     float: left; 
 }           
+
+
+
+
