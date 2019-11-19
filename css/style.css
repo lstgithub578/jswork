@@ -1,7 +1,7 @@
 body{
     /* background: rgb(236, 231, 221); */
     background-color: #e6e6d5;
-    /* background: url(../images/backg-1.jpg) no-repeat; */
+    /* background: url(../images/back4.jpg); */
     /* background-size: cover; */
 }
 
@@ -48,7 +48,7 @@ a{
     height: 38px;
     line-height: 38px;
     text-align: center;
-    opacity:0.68;
+    opacity:0.65;
 }
 
 .content a{ 
