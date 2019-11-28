@@ -1,0 +1,114 @@
+body{
+    background-color: #e6e6d5;
+}
+
+.memu::before,.memu::after{
+    content: "";
+    display: table;
+}
+
+.memu::before,.memu::after{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title1 {
+    margin: auto;
+    width: 600px;
+    display: block;
+    background: white;
+    font-size:25px;
+    /* color:#ff6700; */ 
+    color: black;
+    opacity:0.9;
+}
+
+.title1 p{
+    text-align: center;
+}
+
+.memu{
+    margin: auto;
+    /* border: solid black 1px; */
+    height: 533px;
+    width: 980px;
+} 
+
+.content1{
+    width: 380px;
+    float: left;
+}
+
+.content2{
+    width: 380px;
+    float: right;
+}
+
+/* .content3{
+    width: 380px;
+    float: left;
+} */
+
+
+
+.conall ul{
+    background: url(../images/back3.png);
+    list-style: none;
+    color: red;
+    margin: 0px;
+    padding: 0;
+    margin: auto;
+}
+
+.conall li{
+    /* background-color:#e9965e ; */
+    display: block;
+    background-color: rgb(236, 231, 221);
+    padding: 0px;
+    color: #fff;
+    width: 380px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    opacity:0.65;
+}
+
+.conall a{ 
+    margin: 0px;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    /* background-color:#e9965e ; */
+    background-color: rgb(236, 231, 221);
+    color: rgb(23, 23, 160);
+    /* color: #2c2e2e; */
+    display: block;
+    text-align: center;
+    border:1px solid gray;
+    
+}
+
+
+.conall ul:hover{
+    color: white;
+}
+
+
+.conall a:hover{
+    color: white;
+    background-color:rgb(43, 41, 41);
+    /* background: black; */
+}     
+
+.conall span{
+    display: table;
+    color:rgb(160, 126, 57);
+    font-size: 18px;
+    float: left; 
+}           
+
+
+
+
