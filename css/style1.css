@@ -1,13 +1,52 @@
 body{
-    /* background: rgb(236, 231, 221); */
-    background-color: #e6e6d5;
-    /* background: url(../images/back4.jpg); */
-    /* background-size: cover; */
+    /* background-color: #e6e6d5; */
+    background-color: #d8e8ec;
 }
 
+ul {
+    margin: 0px;
+    padding: 0;
+}
+
+.memu::before,.memu::after{
+    content: "";
+    display: table;
+}
+
+.memu::before,.memu::after{
+    clear: both;
+}
 
 a{
     text-decoration: none;
+}
+
+
+.memu{
+    margin: auto;
+    border: solid black 1px;
+    height: 633px;
+    width: 577px;
+} 
+
+
+.nav-a {
+    border: springgreen 1px solid;
+    width: 190px;
+    float: left;
+}
+
+.ul-a {
+    float: left;
+    width: 382px;
+    border: 1px solid green;
+}
+.conall {
+    display: none;
+}
+
+.active {
+    display: block;
 }
 
 .title1 {
@@ -26,23 +65,35 @@ a{
 }
 
 
-
-.content{
+.content1{
+    border: solid 1px blue;
+    background-image: url(../images/back-1.jpg);
+    background-size: 100% 100%;
     width: 380px;
-    margin:auto; 
 }
 
-.content ul{
-    background: url(../images/back3.png);
+.content2{
+    background-image: url(../images/back-2.jpg);
+    background-size: 100% 100%;
+    width: 380px;
+}
+
+.conall ul{
+    display: none;
     list-style: none;
     color: red;
-    margin: 0;
+    margin: 0px;
     padding: 0;
     margin: auto;
 }
 
-.content  li{
+.conall .active {
+    display: block;
+}
+
+.conall li{
     /* background-color:#e9965e ; */
+    display: block;
     background-color: rgb(236, 231, 221);
     padding: 0px;
     color: #fff;
@@ -50,10 +101,10 @@ a{
     height: 38px;
     line-height: 38px;
     text-align: center;
-    opacity:0.65;
+    opacity:0.8;
 }
 
-.content a{ 
+.conall a{ 
     margin: 0px;
     font-size: 18px;
     font-family: 微软雅黑;
@@ -68,18 +119,19 @@ a{
 }
 
 
-.content  li:hover{
+.conall ul:hover{
     color: white;
 }
 
 
-.content a:hover{
-    color: white;
+.conall a:hover{
+    color: yellowgreen;
     background-color:rgb(43, 41, 41);
     /* background: black; */
 }     
 
-span{
+.conall span{
+    display: table;
     color:rgb(160, 126, 57);
     font-size: 18px;
     float: left; 
